@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <style>
+      body {
+        cursor: default;
+      }
+      li {
+        margin-left: 50px;
+      }
+      li:hover {
+        font-weight: bold;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul>
+      <div class="pc">
+        This PC:
+        <div class="allDisk hidden">
+          <ul class="c">
+            Local Disk (C:)
+            <div class="hidden">
+              <li>Program Files</li>
+              <li>Users</li>
+              <li>Windows</li>
+            </div>
+          </ul>
+          <ul class="d">
+            Local Disk (D:)
+            <div class="hidden">
+              <li>New Folder 1</li>
+              <li>New Folder 2</li>
+              <li>New Folder 3</li>
+            </div>
+          </ul>
+          <ul class="e">
+            Local Disk (C:)
+          </ul>
+        </div>
+      </div>
+    </ul>
+
+    <script src="script6.js"></script>
+  </body>
+</html>

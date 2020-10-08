@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <style>
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 1600px;
+            height: 800px;
+
+        }
+        .modal {
+            width: 400px;
+            height: 100px;
+            background: antiquewhite;
+            position: absolute;
+            border: 1px solid black;
+            text-align: center;
+        }
+        .btn {
+            position: absolute;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button class="btn">Open modal</button>
+
+<div class="wrapper">
+    <div class="modal hidden" >
+    <h3>Hello from modal window!</h3>
+    <button class="btn-close">Close</button>
+</div>
+</div>
+<script src="script2.js"></script>
+</body>
+</html>
